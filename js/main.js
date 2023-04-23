@@ -21,4 +21,5 @@ document;
 const currentYear = new Date().getFullYear();
 const copyrightSymbol = "All rights reserved  &copy; ";
 
-document.getElementsByTagName("p")[0].innerHTML =copyrightSymbol+currentYear ;
+document.getElementsByTagName("h5")[0].innerHTML =copyrightSymbol+currentYear ;
+
