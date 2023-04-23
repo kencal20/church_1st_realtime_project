@@ -2,7 +2,8 @@ nav {
     background-color: red;
 }
 
-img {margin-top: 1px;
+img {
+    margin-top: 1px;
     border-radius: 90px;
     width: 70px;
     margin-left: 70px;
@@ -11,25 +12,27 @@ img {margin-top: 1px;
 ul:nth-of-type(1) {
     position: absolute;
     top: 12px;
-    left:400px ;
+    left: 400px;
     color: white;
     list-style-type: none;
- 
+
 }
+
 #navHeading {
     position: absolute;
-    top: 5px;
+    top: -6px;
     left: 150px;
     color: white;
+    
 
 }
 
-#contactUs{
+#contactUs {
     margin-left: 80px;
 }
 
-select{
-    position:absolute;
+select {
+    position: absolute;
     right: 30px;
     top: 30px;
     border: 0px;
@@ -39,8 +42,21 @@ select{
 
 }
 
-footer{
+footer {
     text-align: center;
     background-color: aqua;
     font-size: large;
-    }
+    
+}
+
+footer>h4{
+    font-size: larger;
+}
+
+
+footer>p {
+    position: relative;
+    /* top: 547px; */
+   left: 50px;
+    font-size: larger;
+}
